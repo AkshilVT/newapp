@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import { Media } from 'reactstrap';
-
+import Uthapizza from '../staticImages/uthappizza.png';
 class Menu extends Component{
 
     constructor(props) {
@@ -11,7 +11,7 @@ class Menu extends Component{
                 {
                     id: 0,
                     name:'Uthappizza',
-                    image: './assets/images/uthapizza.png',
+                    image: Uthapizza,
                     category: 'mains',
                     label:'Hot',
                     price:'4.99',
